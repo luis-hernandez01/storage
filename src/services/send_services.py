@@ -123,37 +123,37 @@
 
 #                 msg.attach(MIMEText(contenido_html, "html"))
                 
-#                 def enviar_correo(para, asunto, cuerpo):
-#                     """
-#                     Función para enviar correo usando la API
-#                     """
-#                     url = "https://email.serviciostic.net/"
+#                 # def enviar_correo(para, asunto, cuerpo):
+#                 #     """
+#                 #     Función para enviar correo usando la API
+#                 #     """
+#                 #     url = "https://email.serviciostic.net/"
                     
-#                     # Datos del formulario
-#                     datos = {
-#                         'para': para,
-#                         'asunto': asunto,
-#                         'mensaje': cuerpo
-#                     }
+#                 #     # Datos del formulario
+#                 #     datos = {
+#                 #         'para': para,
+#                 #         'asunto': asunto,
+#                 #         'mensaje': cuerpo
+#                 #     }
                     
-#                     try:
-#                         # Enviar solicitud POST
-#                         respuesta = requests.post(url, data=datos)
+#                 #     try:
+#                 #         # Enviar solicitud POST
+#                 #         respuesta = requests.post(url, data=datos)
                         
-#                         # Verificar si la solicitud fue exitosa
-#                         if respuesta.status_code == 200:
-#                             print("✅ Correo enviado exitosamente")
-#                             print(f"Respuesta del servidor: {respuesta.text}")
-#                             return True
-#                         else:
-#                             print(f"❌ Error al enviar correo. Código: {respuesta.status_code}")
-#                             print(f"Respuesta: {respuesta.text}")
-#                             return False
+#                 #         # Verificar si la solicitud fue exitosa
+#                 #         if respuesta.status_code == 200:
+#                 #             print("✅ Correo enviado exitosamente")
+#                 #             print(f"Respuesta del servidor: {respuesta.text}")
+#                 #             return True
+#                 #         else:
+#                 #             print(f"❌ Error al enviar correo. Código: {respuesta.status_code}")
+#                 #             print(f"Respuesta: {respuesta.text}")
+#                 #             return False
                             
-#                     except requests.exceptions.RequestException as e:
-#                         print(f"❌ Error de conexión: {e}")
-#                         return False
-#                 enviar_correo("ostinkniel@gmail.com", "e", "sss" )
+#                 #     except requests.exceptions.RequestException as e:
+#                 #         print(f"❌ Error de conexión: {e}")
+#                 #         return False
+#                 # enviar_correo("ostinkniel@gmail.com", "e", "sss" )
                 
                 
                 

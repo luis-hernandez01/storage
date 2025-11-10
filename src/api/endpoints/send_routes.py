@@ -21,4 +21,4 @@ async def send_email(
         result = await SmtpEmailService(db, request).send(request)
         return {"message": "Correo enviado correctamente", "detail": result}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail=str(e)) 
